@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Lift-Simulation</title>
+</head>
+
+<body>
+    <h1>Lift Simulation</h1>
+    <div class="floors" id="floors-container">
+        <div class="floor">
+            <span class="btn-group">
+                <button class="up btn" id="4_up">up</button>
+                <button class="down btn" id="4_down">down</button>
+            </span>
+        </div>
+        <div class="floor">
+            <span class="btn-group">
+                <button class="up btn" id="3_up">up</button>
+                <button class="down btn" id="3_down">down</button>
+            </span>
+        </div>
+        <div class="floor">
+            <span class="btn-group">
+                <button class="up btn" id="2_up">up</button>
+                <button class="down btn" id="2_down">down</button>
+            </span>
+        </div>
+        <div class="floor">
+            <span class="btn-group">
+                <button class="up btn" id="1_up">up</button>
+                <button class="down btn" id="1_down">down</button>
+            </span>
+        </div>
+        <div style="height:6rem; width: 4rem;  background-color: black; position:absolute;left:10rem; top:28.5rem; 
+        transition: top 2s ease-in-out"  id="lift_1"></div>
+        <div style="height:6rem; width: 4rem;  background-color: black; position:absolute;left:20rem; top:28.5rem; 
+        transition: top 2s ease-in-out"  id="lift_2"></div>
+    </div>
+</body>
+<script src="./index.js" defer>
+</script>
+
+</html>
